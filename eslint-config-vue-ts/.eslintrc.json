@@ -19,7 +19,10 @@
     "quote-props": ["error", "as-needed"],
     "key-spacing": ["error", { "afterColon": true }],
     "space-before-blocks": "error",
-    "object-curly-spacing": ["error", "always"]
+    "object-curly-spacing": ["error", "always"],
+    "keyword-spacing": ["error", { "after": true }],
+    "space-infix-ops": ["error", { "int32Hint": false }],
+    "space-in-parens": ["error"]
   },
   "overrides": [
     {
